@@ -1,0 +1,8 @@
+scraper:
+  base_url: "https://pricecheck.uk.com/beauty"
+  output_file: "output/products_data.xlsx"
+  selectors:
+    product_container: "li.item.product.product-item"
+    product_title: "a.product-item-link"
+    product_image: "img.product-image-photo"
+    next_page: "li.pages-item-next a"
