@@ -1,7 +1,8 @@
 scraper:
-  base_url: "https://pricecheck.uk.com/beauty"
-  output_file: "output/products_data.xlsx"
+  base_url: "https://pricecheck.uk.com" 
+  output_file: "output/products_data.xlsx" # Excel which holds the scrapped data 
   selectors:
+    category_container: "li.level1.category-item.parent"  # These are selectors used to scrape from the Website 
     product_container: "li.item.product.product-item"
     product_title: "a.product-item-link"
     product_image: "img.product-image-photo"
